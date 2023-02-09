@@ -8,7 +8,7 @@ function buttonClick(value) {
     // This is not a number
     handleSymbol(value);
   } else {
-    // This is a number
+    
     handleNumber(value);
   }
   rerender();
@@ -24,7 +24,7 @@ function handleNumber(value) {
 
 function handleMath(value) {
   if (buffer === "0") {
-    // do nothing
+  
     return;
   }
 
